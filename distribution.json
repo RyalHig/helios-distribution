@@ -1,17 +1,19 @@
 {
- "버전": "1.0.0",
- "modules": [
+  "meta": {
+    "name": "MyLauncher",
+    "version": "1.0.0",
+    "description": "Vanilla launch setup"
+  },
+  "packages": [
     {
- "id": "minecraft",
- "이름": "마인크래프트 바닐라",
- "유형": "minecraft",
- "버전": "1.21.1",
- "requires": []
+      "name": "Vanilla-1.21.1",
+      "version": "1.21.1",
+      "type": "game",
+      "mcVersion": "1.21.1",
+      "loader": {
+        "type": "none"
+      },
+      "modpack": false
     }
- ],
- "libraries": [],
- "java": {
- "버전": "17",
- "jvmArguments": []
-  }
+  ]
 }
