@@ -1,0 +1,17 @@
+{
+ "버전": "1.0.0",
+ "modules": [
+ {
+ "id": "minecraft",
+ "이름": "마인크래프트 바닐라",
+ "유형": "minecraft",
+ "버전": "1.21.1",
+ "requires": []
+ }
+ ],
+ "libraries": [],
+ "java": {
+ "버전": "17",
+ "jvmArguments": []
+ }
+}
